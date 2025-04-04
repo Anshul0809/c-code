@@ -157,23 +157,23 @@ int main ()
         }
 }*/
 //wirte a program to generate the table any number
+/*
  {
-    int num, a = 1;
-
+    int num;
     cout << "Enter a number: ";
     cin >> num;
-
-
+ int a=1;
 x:
+
     cout << num * a<<endl;
     a++;
 
-    if (a > 10)
-
+    if (a<=10)
     {
     goto x;
     }
 }
+*/
 
 
 
