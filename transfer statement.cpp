@@ -23,7 +23,7 @@ break;
 */
 
 
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main ()
 
@@ -64,6 +64,118 @@ int main ()
    }
 
 
+}*/
+/*
+#include<iostream>
+using namespace std;
+int main()
+{
+    float r;
+    cout<<"enter any number"<<endl;
+    cin>>r;
+    char f;
+    cout<<"enter A for area of circle,enter C for circumfarence of circle,enter S  of square of given number"<<endl;
+    cin>>f;
+    switch(f)
+    {
+    case 'A':
+    case'a':
+        {
+            cout<<"area of circle ="<<3.14*r*r<<endl;
+            break;
+        }
+    case 'C':
+    case'c':
+        {
+            cout<<"circumfarence of circle ="<<2*3.14*r<<endl;
+            break;
+        }
+    case 's':
+    case'S':
+        {
+            cout<<"square of given number ="<<r*r<<endl;
+            break;
+        }
+    default:
+        {
+            cout<<"Invalid choice"<<endl;
+            break;
+        }
+    }
 }
+*/
+
+//TRANSFER STATEMENT
+/*2.goto
+
+there are two type
+1.bottom lebal
+2.top lebal
+/*
+syntex
+
+goto label(A);
+
+label(A):
+
+*/
+//bottom lebal example
+#include<iostream>
+using namespace std;
+int main ()
+/*{
+  cout<<"hello"<<endl;
+  goto x;
+  cout<<"okay"<<endl;
+  cout<<"okay"<<endl;
+  cout<<"okay"<<endl;
+  cout<<"okay"<<endl;
+  x:
+      cout<<"bye"<<endl;
+}*/
+//top lable example
+
+/*{
+    int a=1;
+    x:
+        cout<<a<<"\t";
+        a++;
+        if (a<101)
+        {
+        goto x;
+        }
+        cout<<"\nfinished";
+}*/
+/*{
+    int a=10;
+    x:
+        cout<<a<<"\t";
+        a--;
+        if (a>0)
+        {
+            goto x;
+        }
+}*/
+//wirte a program to generate the table any number
+ {
+    int num, a = 1;
+
+    cout << "Enter a number: ";
+    cin >> num;
+
+
+x:
+    cout << num * a<<endl;
+    a++;
+
+    if (a > 10)
+
+    {
+    goto x;
+    }
+}
+
+
+
 
 
