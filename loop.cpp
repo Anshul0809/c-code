@@ -85,10 +85,11 @@ do
 */
 //write a program to generate factorial
 
+/*
 #include<iostream>
 using namespace std;
 int main()
-/*
+
 {
     int number,a=1;
     cout<<"enter number"<<endl;
@@ -133,6 +134,7 @@ while(condition)
 }
 */
 //write a program to find out the how many digits in given number
+/*
 {
     int number ,a=0;
     cout<<"enter a number"<<endl;
@@ -145,3 +147,33 @@ while(condition)
     }
     cout<<"total digit="<<a<<endl;
 }
+*/
+//triky
+#include<iostream>
+using namespace std;
+int main()
+/*
+{
+   int i=10;
+   while(i)//expresion(j,i=multiexpresion)
+   {
+       cout<<i<<"\t";
+       //i++;
+       i--;
+   }
+}
+*/
+{
+
+
+int i=1;
+int j=1;
+while(j--,i--)
+{
+    cout<<"hello";
+    i--;
+}
+cout<<"finised";
+
+}
+
