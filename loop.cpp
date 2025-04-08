@@ -148,11 +148,11 @@ while(condition)
     cout<<"total digit="<<a<<endl;
 }
 */
-//triky
+/*triky
 #include<iostream>
 using namespace std;
 int main()
-/*
+
 {
    int i=10;
    while(i)//expresion(j,i=multiexpresion)
@@ -162,7 +162,7 @@ int main()
        i--;
    }
 }
-*/
+*
 {
 
 
@@ -176,4 +176,80 @@ while(j--,i--)
 cout<<"finised";
 
 }
+*/
 
+//for loop (for loop will exicute the statetment tillthe cindition is ture otherwiseit will get termineted in a for loop we can initialize the variable, give the condition and use increment and decrement in a single line condition)
+/*syntex
+ for (initialize;condition; inc|dec)
+ {
+ statement/code;
+ }
+ */
+
+#include<iostream>
+using namespace std;
+int main()
+/*{
+    for(int i=1;i<=10;i++)
+  {
+      cout<<i<<"\t";
+  }
+  int j;
+  for(j=10;j<=20;j++)
+  {
+      cout<<j<<"\t";
+  }
+  int x=1;
+  for(;x<=2;x++)
+  {
+      cout<<x<<"\t";
+  }
+
+}
+*/
+/*{
+    int number ;
+    cout<<"enter a number"<<endl;
+    cin>>number;
+    for(int i=1;i<=10;i++)
+    {
+        cout<<number*i<<endl;
+    }
+
+}
+*/
+//wirte a program to display odd number between 20 to 50
+/*{
+
+ for(int i=20;  i<=50; i++)
+ {
+
+
+ if(i%2!=0)
+ {
+    cout<<"odd number"<<i<<endl;
+ }
+ else
+
+    cout<<"even number"<<i<<"\t";
+}}
+*/
+/*
+write a program to find out the given number is prime or not
+write a program to find out the l.c.m. of 24 and 40
+write a program to  find out the h.c.f. 24 to 40
+write a program to find out the factor of any number
+*/
+{
+    int number;
+    cout<<"enter a number"<<endl;
+    cin>>number;
+    if(number/number==0 && number/1==0)
+    {
+        cout<<"prime number";
+    }
+    else
+    {
+        cout<<"non prime number";
+    }
+}
