@@ -240,16 +240,73 @@ write a program to find out the l.c.m. of 24 and 40
 write a program to  find out the h.c.f. 24 to 40
 write a program to find out the factor of any number
 */
+/*
+{
+    int number;
+    int count=0;
+    cout<<"enter a number"<<endl;
+    cin>>number;
+    for (int i=1;i<=number;i++)
+    {
+        if(number%i==0)
+        {
+            count++;
+            //cout<<i<<endl;
+        }
+    }
+    if(count>2)
+    {
+        cout<<"non prime number"<<endl;
+    }
+    else
+        {
+            cout<<"prime  number"<<endl;
+
+    }
+}
+*/
+/*
 {
     int number;
     cout<<"enter a number"<<endl;
     cin>>number;
-    if(number/number==0 && number/1==0)
+    int a=number;
+    int sum=0;
+    while(number>0)
     {
-        cout<<"prime number";
+        int x=number%10;
+        sum+=x;
+        number=number/10;
+    }
+    if(a%sum==0)
+    {
+        cout<<"harshad number";
     }
     else
     {
-        cout<<"non prime number";
+        cout<<"not";
     }
+}
+*/
+{
+    int amount;
+    cout<<"enter amount"<<endl;
+    cin>>amount;
+    int a=0,b=0,c=0,d=0,e=0;
+
+    a=amount/2000;
+    amount=amount%2000;
+        b=amount/1000;
+    amount=amount%1000;
+        c=amount/500;
+    amount=amount%500;
+        d=amount/200;
+    amount=amount%200;
+        e=amount/100;
+    amount=amount%100;
+    cout<<a<<"\t";
+    cout<<b<<"\t";
+    cout<<c<<"\t";
+    cout<<d<<"\t";
+    cout<<e<<"\t";
 }
