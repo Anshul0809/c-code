@@ -1,5 +1,5 @@
 //Loop statement
-//1.do while 2.while 3.for
+//1.do while 2.while(infinite loop) 3.for(certility)
 //Do While loop ( do while loop will exicute the statement or core till the condition will ture otherwise loop will be termineted it will also called exit loop
 //note;- the do while loop exicute the statement atleast one time wheather the condition is ture or false)
 //syntex
@@ -288,6 +288,7 @@ write a program to find out the factor of any number
     }
 }
 */
+/*
 {
     int amount;
     cout<<"enter amount"<<endl;
@@ -309,4 +310,69 @@ write a program to find out the factor of any number
     cout<<c<<"\t";
     cout<<d<<"\t";
     cout<<e<<"\t";
+}
+*/
+//2.l.c.m and h.c.f
+/*
+{
+ int number1;
+ cout<<"enter number 1"<<endl;
+ cin>>number1;
+ int number2;
+ cout<<"enter number 2"<<endl;
+ cin>>number2;
+ int mx;
+ mx=number1>number2?number1:number2;
+ while(1)
+ {
+     if(mx%number1==0 && mx%number2==0)
+     {
+         cout<<"l.c.m="<<mx;
+         break;
+     }
+     mx++;
+ }
+
+
+
+}
+*/
+/*
+{
+
+
+int number1;
+cout<<"enter number 1"<<endl;
+cin>>number1;
+int number2;
+cout<<"enter number 2"<<endl;
+cin>>number2;
+int mn;
+mn=number1<number2?number1:number2;
+while(1)
+{
+    if(number1%mn==0 && number2%mn==0)
+    {
+        cout<<"h.c.f="<<mn;
+        break;
+    }
+    mn--;
+}
+}
+*/
+{
+    int number=15;
+    int k=number;
+int count=0;
+    while(number>=1)
+
+    {
+    if(k%number==0)
+    {
+        //cout<<number<<endl;
+        count+=1;
+    }
+    number--;
+    }
+    cout<<"total factor="<<count;
 }

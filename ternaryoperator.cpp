@@ -1,4 +1,4 @@
-//ternary operator x as a if else condition if the condition is true the part of quetion mark will bw return otherwise the colon will be return or print
+ //ternary operator x as a if else condition if the condition is true the part of quetion mark will bw return otherwise the colon will be return or print
 //ternary operator
 //syntex:
 //(condition)?ontrue:onfalse

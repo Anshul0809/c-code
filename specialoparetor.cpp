@@ -9,8 +9,8 @@ int b=80;
 int main()
 {
  int a=90;//local
- cout<<"a="<<::a<<endl;
  cout<<"a="<<a<<endl;
+ cout<<"a="<<::a<<endl;
  cout<<"b="<<b<<endl;
  cout<<"address of a="<<&a<<endl;//& repersant of address in datatype
  cout<<"bytes="<<sizeof(a);
