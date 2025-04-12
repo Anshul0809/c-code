@@ -134,7 +134,7 @@ else
       discount=0.1*price;
       cout<<"you will get 10% discount and the final price of the product="<<price-discount<<endl;
   }
-else if(1000<=price<2000)
+else if(price>1000 && price<=2000)
 {
     discount=0.15*price;
    cout<<"you will get 15% discount and the final price of the product="<<price-discount<<endl;
@@ -304,7 +304,7 @@ if(a>b && a>c)
 {
     cout<<"large no="<<a;
 }
-else if(b>a && b<c)
+else if(b>a && b>c)
 {
     cout<<"large no="<<b;
 }
@@ -353,11 +353,13 @@ else
 }*/
 
 {
-    int p,c,m,total,percentage;
+    int p,c,m,percentage;
     cout<<"enter a number"<<endl;
     cin>>p>>c>>m;
     cout<<"total marks="<<p+c+m<<endl;
     percentage=(p+c+m)/3;
+    cout<<"percentage="<<percentage<<endl;
+
     if (percentage>=60 && percentage<=100)
     {
         cout<<"first division"<<endl;

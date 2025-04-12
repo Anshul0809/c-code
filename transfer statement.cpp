@@ -1,4 +1,4 @@
-//transfer statement
+ //transfer statement
 //1.switch case(choiec base/menu base programing)(it is called jumping statement .the exicusion speed of switch case is faster than leader condition it si use for choice base and menu base programing)
 /*syntex
 switch(expression)
@@ -135,7 +135,7 @@ int main ()
 }*/
 //top lable example
 
-/*{
+{
     int a=1;
     x:
         cout<<a<<"\t";
@@ -145,7 +145,7 @@ int main ()
         goto x;
         }
         cout<<"\nfinished";
-}*/
+}
 /*{
     int a=10;
     x:

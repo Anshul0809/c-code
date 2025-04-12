@@ -102,6 +102,7 @@ int main()
     cout<<a<<endl;
 }
 */
+
 //while (while loop will exicute the statement if the condition is ture otherwise it will terminet the loopand it will also called entry loop)
 //syntex
 
@@ -135,19 +136,25 @@ while(condition)
 */
 //write a program to find out the how many digits in given number
 /*
+#include<iostream>
+using namespace std;
+int main()
+
 {
     int number ,a=0;
     cout<<"enter a number"<<endl;
     cin>>number;
     while(number>0)
     {
-        a++;
+
         number=number/10;
+        a++;
 
     }
     cout<<"total digit="<<a<<endl;
 }
 */
+
 /*triky
 #include<iostream>
 using namespace std;
@@ -158,11 +165,12 @@ int main()
    while(i)//expresion(j,i=multiexpresion)
    {
        cout<<i<<"\t";
-       //i++;
-       i--;
+       i++;
+       //i--;
    }
 }
-*
+*/
+/*
 {
 
 
@@ -185,11 +193,11 @@ cout<<"finised";
  statement/code;
  }
  */
-
+/*
 #include<iostream>
 using namespace std;
 int main()
-/*{
+{
     for(int i=1;i<=10;i++)
   {
       cout<<i<<"\t";
@@ -360,8 +368,13 @@ while(1)
 }
 }
 */
+/*
 {
-    int number=15;
+    int number;
+
+
+    cout<<"enter number"<<endl;
+    cin>>number;
     int k=number;
 int count=0;
     while(number>=1)
@@ -376,3 +389,144 @@ int count=0;
     }
     cout<<"total factor="<<count;
 }
+
+//prime number
+/*
+{
+  int number,b,f=0;
+  cout<<"enter a number"<<endl;
+  cin>>number;
+  b=number-1;
+  while(b>1)
+  {
+      if(number%b==0)
+      {
+          f=1;
+          break;
+      }
+      b--;
+  }
+  if(f==1)
+  {
+      cout<<"It is not prime"<<endl;
+  }
+  else
+    {
+        cout<<"It is prime number"<<endl;
+    }
+
+
+}
+*/
+//wirte a program to find out the given number is perfect number or not?(perfect number=factor ke digit ko add karne pe whi number aana chahiye)
+//write a program to print the given number in reverse order
+//write a program to print the sum of frist & last digit?
+//armstrom number
+/*{
+    int number;
+    int k=number;
+    int count=0;
+    cout<<"enter a number"<<endl;
+    cin>>number;
+    while(number>=1)
+    {
+
+        if(k%number==0)
+    {
+        //cout<<number<<endl;
+        count=count+1;
+
+    }
+    number--;
+    }
+    cout<<"total factor"<<count;
+
+}*/
+
+//3.
+/*
+#include<iostream>
+using namespace std;
+int main()
+{
+ int number;
+ cout<<"enter a number "<<endl;
+ cin>>number;
+ int k=number;
+
+ while(k>=10)
+ {
+     k=k/10;
+
+ }
+ cout<<"first digit"<<k<<endl;
+ int a=number%10;
+ {
+     cout<<"last number="<<a<<endl;
+ }
+ int sum=k+a;
+ cout<<"sum of first and last digit="<<sum<<endl;
+
+}
+*/
+//2.
+#include<iostream>
+using namespace std;
+int main()
+/*
+{
+
+int number;
+int a;
+cout<<"enter a number"<<endl;
+cin>>number;
+while(number>0)
+{
+    a=number%10;
+    number=number/10;
+    cout<<a;
+}
+}
+*/
+/*
+int n;
+int z=n;
+cout<<"enter a number"<<endl;
+cin>>n;
+int temp=0;
+while(n>0)
+{
+int x=n%0;
+temp=temp*10+x;
+n/10;
+cout<<temp;
+if(temp==z)
+{
+cout<<"pleadron number;
+}
+*/
+//1.
+{
+    int number;
+    cout<<"enter a number"<<endl;
+    cin>>number;
+    int sum=0;
+    for(int i=1; i<number; i++)
+    {
+        if(number%i==0)
+        sum=sum+i;
+
+    }
+    if(sum==number)
+    {
+        cout<<"perfect number"<<endl;
+    }
+    else
+        {
+        cout<<"not perfect number"<<endl;
+        }
+
+}
+
+
+
