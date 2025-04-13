@@ -1,13 +1,19 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main()
-{
-int a=1;
-while(a<=10)
-{
 
-    cout<<a<<endl;
-    a++;
+int main() {
+    int a, b ;
+    cout<<"enter frist digit"<<endl;
+    cin>>a;
+    cout<<"enter second digit"<<endl;
+    cin>>b;
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    cout<<"a="<<a<<endl;
+    cout<<"b="<<b<<endl;
 }
 
-}
+
+
+

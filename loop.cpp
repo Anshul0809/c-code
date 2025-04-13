@@ -215,7 +215,12 @@ int main()
 
 }
 */
-/*{
+
+#include<iostream>
+using namespace std ;
+int main()
+/*
+{
     int number ;
     cout<<"enter a number"<<endl;
     cin>>number;
@@ -226,8 +231,10 @@ int main()
 
 }
 */
+
 //wirte a program to display odd number between 20 to 50
-/*{
+/*
+{
 
  for(int i=20;  i<=50; i++)
  {
@@ -389,7 +396,7 @@ int count=0;
     }
     cout<<"total factor="<<count;
 }
-
+*/
 //prime number
 /*
 {
@@ -417,7 +424,7 @@ int count=0;
 
 
 }
-*/
+
 //wirte a program to find out the given number is perfect number or not?(perfect number=factor ke digit ko add karne pe whi number aana chahiye)
 //write a program to print the given number in reverse order
 //write a program to print the sum of frist & last digit?
@@ -470,10 +477,11 @@ int main()
 }
 */
 //2.
+/*
 #include<iostream>
 using namespace std;
 int main()
-/*
+
 {
 
 int number;
@@ -506,6 +514,7 @@ cout<<"pleadron number;
 }
 */
 //1.
+/*
 {
     int number;
     cout<<"enter a number"<<endl;
@@ -529,4 +538,4 @@ cout<<"pleadron number;
 }
 
 
-
+*/
