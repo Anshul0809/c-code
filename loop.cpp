@@ -215,7 +215,7 @@ int main()
 
 }
 */
-
+/*
 #include<iostream>
 using namespace std ;
 int main()
@@ -389,12 +389,14 @@ int count=0;
     {
     if(k%number==0)
     {
-        //cout<<number<<endl;
+        cout<<number<<endl;
+
         count+=1;
     }
     number--;
     }
-    cout<<"total factor="<<count;
+    cout<<"total factor="<<count<<endl;
+
 }
 */
 //prime number
@@ -424,34 +426,14 @@ int count=0;
 
 
 }
-
+*/
 //wirte a program to find out the given number is perfect number or not?(perfect number=factor ke digit ko add karne pe whi number aana chahiye)
 //write a program to print the given number in reverse order
 //write a program to print the sum of frist & last digit?
 //armstrom number
-/*{
-    int number;
-    int k=number;
-    int count=0;
-    cout<<"enter a number"<<endl;
-    cin>>number;
-    while(number>=1)
-    {
-
-        if(k%number==0)
-    {
-        //cout<<number<<endl;
-        count=count+1;
-
-    }
-    number--;
-    }
-    cout<<"total factor"<<count;
-
-}*/
 
 //3.
-/*
+
 #include<iostream>
 using namespace std;
 int main()
@@ -464,9 +446,9 @@ int main()
  while(k>=10)
  {
      k=k/10;
-
  }
  cout<<"first digit"<<k<<endl;
+
  int a=number%10;
  {
      cout<<"last number="<<a<<endl;
@@ -475,7 +457,7 @@ int main()
  cout<<"sum of first and last digit="<<sum<<endl;
 
 }
-*/
+
 //2.
 /*
 #include<iostream>

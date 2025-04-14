@@ -1,19 +1,26 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    int a, b ;
-    cout<<"enter frist digit"<<endl;
-    cin>>a;
-    cout<<"enter second digit"<<endl;
-    cin>>b;
-    a=a+b;
-    b=a-b;
-    a=a-b;
-    cout<<"a="<<a<<endl;
-    cout<<"b="<<b<<endl;
-}
+int main()
+{
+    int number;
+    int a;
+    cout << "Enter a number" << endl;
+    cin >> number;
 
+    int r = 0;
+
+    while (number > 0)
+    {
+        a = number % 10;
+        r = r * 10 + a;
+        number = number / 10;
+    }
+
+    cout << "Reversed number: " << r << endl;
+
+    return 0;
+}
 
 
 
