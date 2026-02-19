@@ -328,8 +328,10 @@ write a program to find out the factor of any number
 }
 */
 //2.l.c.m and h.c.f
-/*
-{
+
+#include<iostream>
+using namespace std;
+int main(){
  int number1;
  cout<<"enter number 1"<<endl;
  cin>>number1;
@@ -348,10 +350,10 @@ write a program to find out the factor of any number
      mx++;
  }
 
-
-
 }
-*/
+
+
+
 /*
 {
 
@@ -433,7 +435,7 @@ int count=0;
 //armstrom number
 
 //3.
-
+/*
 #include<iostream>
 using namespace std;
 int main()
@@ -457,7 +459,7 @@ int main()
  cout<<"sum of first and last digit="<<sum<<endl;
 
 }
-
+*/
 //2.
 /*
 #include<iostream>

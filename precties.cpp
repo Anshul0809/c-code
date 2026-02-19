@@ -4,22 +4,33 @@ using namespace std;
 int main()
 {
     int number;
-    int a;
     cout << "Enter a number" << endl;
     cin >> number;
+    int k=number;
+      int count=0;
+      int sum=0;
+      while(number>=1)
+      {
+          if(k%number==0)
+          {
+              cout<<number<<endl;
+            count=count+1;
+          }
 
-    int r = 0;
+          number--;
+      }
+      cout<<"total factor="<<count<<endl;
+     cout<<"sum"<<sum<<endl;
+     if(sum==number)
+     {
+         cout<<"perfect number"<<endl;
+     }
+     else
+     {
+         cout<<"not perfect number"<<endl;
+     }
 
-    while (number > 0)
-    {
-        a = number % 10;
-        r = r * 10 + a;
-        number = number / 10;
-    }
 
-    cout << "Reversed number: " << r << endl;
-
-    return 0;
 }
 
 
